@@ -71,10 +71,10 @@ def scan():
         risk = "HIGH"
 
     # Save CSV Report
-    save_report(url, score, risk)
+    #save_report(url, score, risk)
 
     # Generate PDF Report
-    create_pdf(
+    #create_pdf(
         url=url,
         score=score,
         risk=risk,
