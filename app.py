@@ -70,17 +70,17 @@ def scan():
     else:
         risk = "HIGH"
 
-    # Save CSV Report
-    #save_report(url, score, risk)
+    # # Save CSV Report
+    # save_report(url, score, risk)
 
-    # Generate PDF Report
-    #create_pdf(
-        url=url,
-        score=score,
-        risk=risk,
-        result=result,
-        ssl_info=ssl_info
-    )
+    # # Generate PDF Report
+    # create_pdf(
+    #     url=url,
+    #     score=score,
+    #     risk=risk,
+    #     result=result,
+    #     ssl_info=ssl_info
+    # )
 
     return render_template(
         "report.html",
